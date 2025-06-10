@@ -22,12 +22,17 @@ let image = document.querySelector('.image');
 //   - The `location` paragraph.
 
 contentButton.addEventListener('click', function() {
+    myName.innerHTML = "Will";
+    myHobby.innerHTML = "I like to play videogames";
+    myLocation.innerHTML = "Freddy Fazbear Pizzeria"
+});
 
+image1Button.addEventListener("mouseover", function() {
+    image.src = "https://media1.tenor.com/m/UdqKHuwbEL4AAAAC/freddy-fazbear.gif"
+});
 
-
-
-
-
+image2Button.addEventListener("click", function() {
+    image.src = "https://otakuowlet.com/cdn/shop/files/00033439914_02.jpg?v=1725422646"
 });
 
 // 3. Add an event listener to the `image1Button`
